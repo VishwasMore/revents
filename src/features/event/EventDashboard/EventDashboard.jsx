@@ -1,3 +1,4 @@
+  
 import React, { Component } from 'react';
 import { Grid, Button } from 'semantic-ui-react';
 import cuid from 'cuid';
@@ -69,7 +70,7 @@ class EventDashboard extends Component {
     });
   };
 
-  handleCancel() {
+  handleCancel = () => {
     this.setState({
       isOpen: false
     });
